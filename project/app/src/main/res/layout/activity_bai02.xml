@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai02">
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/colorAccent"
+       >
+
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorPrimaryDark"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:text="Dich Vu"
+               android:textSize="30sp"
+               android:layout_weight="1"
+               />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:text="Thoat"
+               android:textSize="30sp" />
+
+           <Button
+               android:id="@+id/bt03"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bai03"
+               android:layout_margin="10dp"
+               android:textSize="30sp" />
+
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="150dp"
+                   android:layout_height="116dp"
+                   android:src="@drawable/doremon" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:text="Doraemon"
+                   android:textSize="30sp"
+                   android:layout_margin="10dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="193dp"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="118dp"
+                   android:layout_height="117dp"
+                   android:src="@drawable/taxi2" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:gravity="center"
+                   android:text="Taxi"
+                   android:textSize="30sp" />
+
+           </LinearLayout>
+       </TableRow>
+
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="155dp"
+                   android:layout_height="124dp"
+                   android:src="@drawable/food1" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:text="Do An Nhanh"
+                   android:textSize="30sp"
+                   android:layout_margin="10dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="124dp"
+                   android:layout_height="121dp"
+                   android:src="@drawable/hotel" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:text="Khach San"
+                   android:textSize="30sp"
+                   android:layout_margin="10dp"
+                   />
+
+           </LinearLayout>
+
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           >
+
+           <LinearLayout
+               android:layout_width="201dp"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="155dp"
+                   android:layout_height="103dp"
+                   android:src="@drawable/game" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+
+                   android:gravity="center"
+                   android:text="Giai Tri"
+                   android:textSize="30sp" />
+
+           </LinearLayout>
+       </TableRow>
+   </TableLayout>
+
+</LinearLayout>

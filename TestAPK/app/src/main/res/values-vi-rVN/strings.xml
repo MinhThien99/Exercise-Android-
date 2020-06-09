@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bản Nháp APK</string>
+    <string name="email">Nhập địa chỉ email</string>
+    <string name="password">Nhập mật khẩu</string>
+    <string name="emailtype">nhập email</string>
+    <string name="passtype">nhập mật khẩu</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="iloveyou">ANH YÊU EM</string>
+    <string name="attempts">Số lần thử</string>
+    <string name="bntlogin">Đăng nhập</string>
+    <string name="btncancle">thoát</string>
+
+</resources>

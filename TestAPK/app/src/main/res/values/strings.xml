@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestAPK</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="emailtype">Enter Name</string>
+    <string name="passtype">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="iloveyou">I LOVE YOU</string>
+    <string name="attempts">Attempts Left</string>
+    <string name="bntlogin">LOGIN</string>
+    <string name="btncancle">CANCLE</string>
+</resources>

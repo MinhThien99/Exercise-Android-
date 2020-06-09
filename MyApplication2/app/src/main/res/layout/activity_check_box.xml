@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxAndRadioButton"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ban Thich Xem Phim Gi :"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film +"
+        android:textSize="30sp"
+        android:id="@+id/chkfilm"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPT Play"
+        android:textSize="30sp"
+        android:id="@+id/chkFPT"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clip TV"
+        android:textSize="30sp"
+        android:id="@+id/chkclip"
+        />
+
+    <Button
+        android:id="@+id/btonconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtresult"
+        android:textSize="25sp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chon Danh Gia Cua Ban"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroupcheck"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Rat Tot"
+            android:id="@+id/rbtratTot"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Tot"
+            android:id="@+id/rbtTot"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Binh Thuong"
+            android:id="@+id/rbtbthuong"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Tuyet Voi"
+            android:id="@+id/rbttvoi"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btndanhgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm value"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtresultvalue"
+        android:textSize="25sp"
+        android:background="@color/colorPrimaryDark"
+        />
+</LinearLayout>
